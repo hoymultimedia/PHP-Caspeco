@@ -5,6 +5,7 @@
 A Caspeco API library for PHP with Laravel support.
 
 [![Build Status](https://img.shields.io/travis/hoymultimedia/PHP-Caspeco/master.svg?style=flat)](https://travis-ci.org/hoymultimedia/PHP-Caspeco)
+[![StyleCI](https://styleci.io/repos/43556637/shield?style=flat)](https://styleci.io/repos/43556637)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/hoymultimedia/PHP-Caspeco.svg?style=flat)](https://scrutinizer-ci.com/g/hoymultimedia/PHP-Caspeco/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/hoymultimedia/PHP-Caspeco.svg?style=flat)](https://scrutinizer-ci.com/g/hoymultimedia/PHP-Caspeco)
 [![Latest Version](https://img.shields.io/github/release/hoymultimedia/PHP-Caspeco.svg?style=flat)](https://github.com/hoymultimedia/PHP-Caspeco/releases)
