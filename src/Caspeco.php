@@ -15,6 +15,7 @@ use Hoy\Caspeco\Http\Cards;
 use Hoy\Caspeco\Http\Charges;
 use Hoy\Caspeco\Http\Customers;
 use Hoy\Caspeco\Http\Merchants;
+use Hoy\Caspeco\Http\Subscriptions;
 use InvalidArgumentException;
 
 /**
@@ -81,6 +82,16 @@ class Caspeco
     public function merchants()
     {
         return new Merchants($this->config);
+    }
+
+    /**
+     * Get the subscriptions endpoint.
+     *
+     * @return \Hoy\Caspeco\Http\Subscriptions
+     */
+    public function subscriptions()
+    {
+        return new Subscriptions($this->config);
     }
 
     /**

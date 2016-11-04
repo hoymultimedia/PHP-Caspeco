@@ -43,6 +43,18 @@ final class Customers extends AbstractClient
     }
 
     /**
+     * Update a customer.
+     *
+     * @param array $params
+     *
+     * @return \Psr\Http\Message\ResponseInterface
+     */
+    public function update($id, $params = [])
+    {
+        return $this->post('customers/'.$id, ['json' => $params]);
+    }
+
+    /**
      * Get a customer by their id.
      *
      * @param int $id
